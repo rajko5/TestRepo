@@ -10,7 +10,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 spec:
   rules:
-  - host: iinfbl.infobelt.net
+  - host: iinfob.infobelt.net
     http:
       paths:
       - path: /
@@ -41,8 +41,8 @@ spec:
             port:
               number: 80
   tls:
-  - hosts: iinfbl.infobelt.net
-    secretName: iinfbl-infobelt-net
+  - hosts: iinfob.infobelt.net
+    secretName: iinfob-infobelt-net
   - hosts:
     - drill.oamprod.infobelt.net
     secretName: drill-oamprod-infobelt-net
