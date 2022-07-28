@@ -279,7 +279,7 @@ spec:
         - name: SPRING_DATASOURCE_URL
           value: jdbc:oracle:thin:@oam-poc.c6njtcwgnr85.us-west-2.rds.amazonaws.com:1521:openskye
         - name: SPRING_DATASOURCE_USERNAME
-          value: Dovie
+          value: Gregoria
         - name: SPRING_DATASOURCE_PASSWORD
           value: changeme
         - name: SPRING_DATA_JEST_URI
@@ -384,7 +384,7 @@ spec:
         - name: SPRING_DATASOURCE_URL
           value: jdbc:oracle:thin:@oam-poc.c6njtcwgnr85.us-west-2.rds.amazonaws.com:1521:openskye
         - name: SPRING_DATASOURCE_USERNAME
-          value: Dovie
+          value: Gregoria
         - name: SPRING_DATASOURCE_PASSWORD
           value: changeme
         - name: SPRING_DATA_JEST_URI
